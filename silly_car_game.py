@@ -85,9 +85,9 @@ def end_3():
     
 def end_4():
     print("""
-          Miraculously, you make it to High Technology High School right when the 7:30 bell rings.
+          Miraculously, you make it to school right when the 7:30 bell rings.
           Phew! You speed walk to the entrance to get to your first class. 
-          Mr. Roche gives you a look, almost as if he knew what you were doing, but he doesn't comment.
+          A teacher standing at the door gives you a look, almost as if he knew what you were doing, but he doesn't comment.
           Despite the odds being stacked against you, you made it to class on time.
           
           Success! Game over :)
