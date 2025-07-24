@@ -94,41 +94,6 @@ def end_4():
           """)
 
 
-print("Type 'start' to start the car. Type 'help' for the menu.")
-while True:
-    command = input('> ').lower()
-    if command == 'start':
-        started = True
-        start_car()
-    elif command == 'stop':
-        stop_car()
-        started = False
-    elif command == 'forward':
-        driving = True
-        random_number = random.randint(1,100) #random.randint()
-        drive_forward()
-    elif command == 'backward':
-        driving = True
-        random_number = random.randint(1, 100)
-        drive_backward()
-    elif command == 'left':
-        turn_left()
-    elif command == 'right':
-        turn_right()
-    elif command == 'help':
-        print('''
-              start - to start the car
-              stop - to stop the car
-              forward - drive forward
-              backward - drive backward
-              left - turn the car left
-              right - turn the car right
-              quit - to quit the game
-              ''')
-    elif command == 'quit':
-        print('Game quit!')
-        break
-    else:
-        print('This is not a valid command')
+
         
 
